@@ -1,0 +1,256 @@
+*{
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* fonts */
+@font-face {
+    font-family: "Ara Hala Bo She'sha";
+    src: url("./fonts/AraHalaBoShe-sha-Regular.ttf");
+}
+/* font error */
+@font-face {
+    font-family: "Averia Serif Libre";
+    src: url("./fonts/averia-serif-libre/AveriaSerifLibre-Light.ttf");
+}
+/* font error */
+@font-face{
+font-family: "Averia Sans Libre";
+src: url("./fonts/Averia_Sans_Libre/AveriaSansLibre-Light.ttf");
+}
+@font-face {
+    font-family:"Greta Arabic AR + LT" ;
+    src: url("./fonts/Greta-Arabic-AR-LT.ttf");
+}
+
+/* end fonts */
+/* start landing page */
+.landing-page{
+width: 1440px;
+height: 708px;
+/* padding :250px 98px 150px 98px; */
+background-image: url(./image/landing_image.png);
+overflow: hidden;
+}
+/* start header */
+.landing-page .header{
+    Height:140px;
+    display: flex;
+    padding:40px 98px 40px 98px;  
+    justify-content: space-between;
+}
+.landing-page .header  .hayah{
+width: 75px;
+height: 55px !important; 
+color: #EC2E32;
+font-family: "Ara Hala Bo She'sha";
+font-size: 40px;
+font-weight: 400;
+line-height: 54.52px;
+text-align: left;
+}
+.landing-page .header .section2{
+width: 596px;
+height: 32px;
+display: flex;
+justify-content: space-around;
+gap: 117px;
+padding :15px 0 0 0;
+
+}
+
+.landing-page .header .section2 .what-is-hayah{
+width: 137px;
+height: 32px;
+/* font error */
+font-family: "Averia Sans Libre";
+font-size: 26px;
+font-weight: 700;
+line-height: 32.17px;
+text-align: left;
+color: #EC2E32;
+gap: 9px;
+}
+.landing-page .header .section2 .our-services{
+width: 75px;
+height: 32px;
+/* font error */
+font-family: "Averia Sans Libre";
+font-size: 26px;
+font-weight: 400;
+line-height: 32.17px;
+text-align: left;
+color: #000000;
+}
+.landing-page .header .section2 .conact-us{
+width: 120px;
+height: 32px;
+/* font error */
+font-family: "Averia Sans Libre";
+font-size: 26px;
+font-weight: 400;
+line-height: 32.17px;
+text-align: left;
+color: #000000;
+}
+.landing-page .header .section3{
+width: 303px;
+height: 60px;
+gap: 30px;
+display: flex;
+justify-content: space-between;
+}
+.landing-page .header .section3 .blood{
+padding: 15px 35px 15px 35px;
+gap: 7px;
+border-radius: 30px;
+background-color: #EC2E32;
+
+}
+.landing-page .header .section3 .blood .request-blood{
+    width: 86px;
+    height:30px;
+    /* font error */
+    font-family:"Averia Sans Libre";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.7px;
+    text-align: center;
+    color: #FFFEFE;
+}
+
+.landing-page .header .section3  .donation{
+    padding: 15px 35px 15px 35px;
+    gap: 7px;
+    border-radius: 30px;
+    border: 2px solid;
+    border-color: #EC2E32;
+}
+.landing-page .header .section3 .donation .donate{
+width: 47px;
+height: 30px;
+/* font error */
+font-family: "Averia Sans Libre";
+font-size: 24px;
+font-weight: 700;
+line-height: 29.7px;
+text-align: center;
+color: #EC2E32;
+} 
+/* end header */
+
+/* start landing-down */
+.landing-down{
+padding :60px 98px 60px 0px;
+display: flex;
+}
+/* .landing-down .part1{
+    margin-top: 10px !important;
+} */
+.landing-down img{
+width: 776px;
+height: 559.8px;
+top: -51.5px ;
+overflow: hidden;
+position: relative;
+}
+
+.landing-down .part2{
+width: 606px;
+height:308px;
+gap: 30px;
+color: #EC2E32;
+}
+
+
+.landing-down .part2 h2{
+    height:  146px;
+    color: #EC2E32;
+    font-family: "Greta Arabic AR + LT";
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 73.02px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.landing-down .part2 p{
+    height:  132px;
+    /* font error */
+    font-family:"Averia Serif Libre";  
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.54px;
+    text-align: right;
+    color: #424242;
+}
+/* end landing-down */
+/* end landing page */
+
+/* start ourServices */
+.our-services-main
+{
+width:1440px;
+height: 742px;
+padding :0px 79px 0px 79px;
+gap: 65px;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+.our-services-main h2{
+height: 55px;
+font-family: "Greta Arabic AR + LT";
+font-size: 48px;
+font-weight: 800;
+line-height: 54.77px;
+text-align: center !important;
+color: #DC000E;
+}
+
+
+.our-services-design .service1{
+    width: 381.33px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    top: 87px;
+    position: relative;
+}
+.our-services-design .service1 .main{
+    height: 124px;
+    gap: 25px;
+}
+.our-services-design .service1 .main .img{
+    /* width: 56px; */
+    height: 58px;
+    align-items: center;
+    position: relative; 
+    top: -28px;
+    left: -157px;
+}
+.our-services-design .service1 .main h2{
+    height: 41px;
+    font-family: "Greta Arabic AR + LT";
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 41.08px;
+    text-align: center !important;
+    color: #000000;
+}
+.our-services-design .service1 p{
+font-family: "Averia Serif Libre";
+font-size: 26px;
+font-weight: 400;
+line-height: 31.45px;
+text-align: center;
+width: 381.33px;
+height: 93px;
+color: #485A69;
+}
+
+/* end ourServices */
